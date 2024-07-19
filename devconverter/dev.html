@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevConvert</title>
+    
+    <!--CSS-->
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="css/main.css">
+    <!--Fonts-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&family=Poppins:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>DEV</h1>
+    </header>
+
+    <main>
+    <form id="form">
+        
+        <section class="inputs-container">
+            <div class="form-group">
+                <label for="">Valor a ser convertido (R$)</label>
+                <input 
+                type="number" 
+                name="value-real"
+                id="value-real"
+                placeholder="R$20,00" 
+                max="10000000"
+                
+                >
+            </div>
+        
+                <div class="form-group">
+                    
+                    <label for="currency"> Escolha a moeda</label>
+                    <select id="currency">
+                        <option value="">Selecione</option>
+                        <option value="Eur">Euro</option>
+                        <option value="Dólar">Dolar</option>
+                    </select>
+                    </div>
+                  </section>
+                    
+                  <button type="submit">Converter</button>
+                    </form>
+
+                    <h2 id="result"></h2>
+                </main>
+                
+            
+
+    <footer>
+
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
